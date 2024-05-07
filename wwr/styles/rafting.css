@@ -44,9 +44,12 @@ header {
   background-color: var(--background-color);
 }
 
+header nav a {
+  text-decoration: none;
+}
+
 .hero {
   position: relative;
-  border: 1px solid red;
 }
 
 .hero img {
