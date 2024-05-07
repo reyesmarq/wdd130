@@ -1,1 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+:root {
+  --primary-color: #457b9d;
+  --secondary-color: #a8dadc;
+  --background-color: #f1faee;
+  --accent-color: #e63946;
+  --black-color: #1d3557;
+
+  --acent1-color: #000;
+  --accent2-color: #000;
+
+  --heading-font: "Comfortaa", sans-serif;
+  --paragraph-font: "Comfortaa", sans-serif;
+
+  --nav-background-color: #f1faee;
+  --nav-link-color: #1d3557;
+  --nav-hover-link-color: #f1faee;
+  --nav-hover-background-color: #1d3557;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  min-width: 960px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  fontfamily: var(--heading-font);
+  color: var(--primary-color);
+}
+
+img {
+  display: block;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+.hero {
+  position: relative;
+  border: 1px solid red;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 53, 87, 0.8);
+  text-align: center;
+  padding-block: 20px;
+  color: var(--background-color);
+}
+
+.hero article {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: var(--background-color);
+  background: rgba(29, 53, 87, 0.8);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  right: 100px;
+}
+
+.hero article p {
+  padding: 0;
+  margin: 0;
+  color: white;
+  line-height: 1.5;
+  margin: 50px;
+}
+
+.hero article img {
+  width: 300px;
+  border-radius: 5px;
+  display: inline;
+}
+
+.sociallinks img {
+  width: 150px;
+  display: inline;
+}
