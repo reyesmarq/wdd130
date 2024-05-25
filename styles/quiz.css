@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+
+:root {
+  --primary-color: #457b9d;
+  --secondary-color: #a8dadc;
+  --background-color: #f1faee;
+  --accent-color: #e63946;
+  --black-color: #1d3557;
+
+  --acent1-color: #000;
+  --accent2-color: #000;
+
+  --heading-font: "Comfortaa", sans-serif;
+  --paragraph-font: "Comfortaa", sans-serif;
+
+  --nav-background-color: #f1faee;
+  --nav-link-color: #1d3557;
+  --nav-hover-link-color: #f1faee;
+  --nav-hover-background-color: #1d3557;
+}
+
+:root {
+}
+
+body {
+  font-family: var(--paragraph-font);
+  min-width: 960px;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  all: unset;
+}
+
+.container {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f1faee;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.form-label {
+}
+
+.form-label.accent {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  padding: 16px 24px;
+  fontweight: bold;
+  font-size: 18px;
+  margin-block: 8px;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+}
